@@ -17,6 +17,7 @@ public class myQueue {
         q.offer(6);
         q.offer(7);
         //System.out.println(q.element()); if element there it show top element
+
         System.out.println(q.peek());
     }
 }
