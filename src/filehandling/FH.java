@@ -12,7 +12,11 @@ public class FH {
                 File f =new File(path);
                 FileWriter fw = new FileWriter(f,true);
                 BufferedWriter bw = new BufferedWriter(fw);
-                fw.write("Hello");
+                Scanner sc=new Scanner(System.in);
+                String inp=sc.nextLine();
+                bw.newLine();
+                bw.write(inp);
+                //fw.write("Hello IIIIIAAAAMMMMM");
                 bw.write("Hello am deep");
                 bw.close();
                 fw.close();
